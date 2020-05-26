@@ -21,7 +21,7 @@ module.exports = {
                     if(error){
                         return callBack(error);
                     }
-                    return callBack(null, data);
+                    return callBack(null, results);
                 }
             );
         });
@@ -46,7 +46,7 @@ module.exports = {
                 if (error){
                     return callBack(error);
                 }
-                return callBack(null, data);
+                return callBack(null, results);
             }
         );
     },
@@ -63,7 +63,7 @@ module.exports = {
                 if(error){
                     return callBack(error);
                 }
-                return callBack(null, data);
+                return callBack(null, results);
             }
         );
     },
@@ -75,7 +75,7 @@ module.exports = {
                 if(error){
                     return callBack(error);
                 }
-                return callBack(null, data);
+                return callBack(null, results);
             }
         );
     }
